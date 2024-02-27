@@ -34,7 +34,7 @@ jobs:
           PR_OPTIONS: ${{ github.event.inputs.pr-options }}
           RUN_ID: ${{ github.run_id }}
           
-        run: 
+        run: |
           # script will go here
           echo "Initializing git"
           # Optional
